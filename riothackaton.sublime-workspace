@@ -1,0 +1,1516 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bo",
+				"block"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
+				"t",
+				"td	<td>"
+			],
+			[
+				"html",
+				"html	html"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/master.blade.php",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@extends('master')\n\n@section('content')\n<div class=\"row\" >\n  <table class=\"table\">\n    <thead>\n      <th>ID</th>\n      <th>Name</th>\n      <th>Serial</th>\n    </thead>\n    <tbody>\n    @foreach($things as $thing)\n      tr\n    @endforeach\n    </tbody>\n  </table>\n</div>\n@stop\n",
+			"file": "app/views/hello.blade.php",
+			"file_size": 192,
+			"file_write_time": 130708213890541071,
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/widgets/navbar.blade.php",
+			"settings":
+			{
+				"buffer_size": 724,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"new file",
+				"ANF: New File"
+			],
+			[
+				"rean",
+				"File: Rename"
+			],
+			[
+				"new ",
+				"ANF: New File"
+			],
+			[
+				"preyy",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"nf",
+				"ANF: New File"
+			],
+			[
+				"new fiel",
+				"ANF: New File"
+			],
+			[
+				"chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"mo",
+				"Git: Open Modified Files"
+			],
+			[
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"new fi",
+				"ANF: New File"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"new i",
+				"File: New View into File"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
+			],
+			[
+				"open m",
+				"Git: Open Modified Files"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"open",
+				"Git: Open Modified Files"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"modi",
+				"Git: Open Modified Files"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"new fil",
+				"ANF: New File"
+			],
+			[
+				"modif",
+				"Git: Open Modified Files"
+			],
+			[
+				"show err",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"new fil	",
+				"ANF: New File"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"git mo",
+				"Git: Open Modified Files"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"erlang",
+				"Set Syntax: Erlang"
+			],
+			[
+				"eral",
+				"Set Syntax: Erlang"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"new file	",
+				"ANF: New File"
+			],
+			[
+				"wrapse",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"boxsi",
+				"Snippet: CSS - box-sizing: border-box;"
+			],
+			[
+				"sho",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"box",
+				"Snippet: CSS - box-sizing: border-box;"
+			],
+			[
+				"new file ",
+				"ANF: New File"
+			],
+			[
+				"save al",
+				"File: Save All"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"repl python",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl",
+				"SublimeREPL: F#"
+			],
+			[
+				"repl she",
+				"SublimeREPL: Shell"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Add Channel"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"shw",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"new fie",
+				"ANF: New File"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"ew file",
+				"ANF: New File"
+			],
+			[
+				"cssshado",
+				"Snippet: CSS - box-shadow: ;"
+			],
+			[
+				"css shad",
+				"Snippet: CSS - box-shadow: ;"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"identation",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"avasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"delte",
+				"File: Delete"
+			],
+			[
+				"include",
+				"Snippet: blade-include"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"newfiel",
+				"ANF: New File"
+			],
+			[
+				"blade comm",
+				"Snippet: blade-comment"
+			],
+			[
+				"shower",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"add folder",
+				"Project: Add Folder"
+			],
+			[
+				"git ",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"git gu",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"php	",
+				"Set Syntax: PHP"
+			],
+			[
+				"show error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"gutter",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"enabe",
+				"Package Control: Enable Package"
+			],
+			[
+				"docty",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/donkeysharp/code/repos/riothackaton"
+	],
+	"file_history":
+	[
+		"/home/donkeysharp/code/repos/riothackaton/app/views/widgets/navbar.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/public/css/main.css",
+		"/home/donkeysharp/code/repos/riothackaton/public/fonts/fontawesome-webfont.svg",
+		"/home/donkeysharp/code/repos/riothackaton/ENVIRONMENT",
+		"/home/donkeysharp/code/repos/riothackaton/public/js/notify.min.js",
+		"/home/donkeysharp/code/repos/riothackaton/app/controllers/HomeController.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/views/hello.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/bootstrap/start.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/views/hello.php",
+		"/home/donkeysharp/code/repos/chanchullo/board/templates/posts/index.html",
+		"/home/donkeysharp/info.json",
+		"/home/donkeysharp/code/repos/chanchullo/board/views.py",
+		"/home/donkeysharp/code/repos/chanchullo/board/urls.py",
+		"/home/donkeysharp/code/repos/chanchullo/chanchullo/urls.py",
+		"/home/donkeysharp/code/repos/chanchullo/board/static/foundation/js/foundation/foundation.reveal.js",
+		"/home/donkeysharp/code/repos/chanchullo/board/templates/posts/detail.html",
+		"/home/donkeysharp/code/repos/chanchullo/board/static/foundation/js/foundation/foundation.interchange.js",
+		"/home/donkeysharp/code/repos/chanchullo/board/static/foundation/js/foundation/foundation.tab.js",
+		"/home/donkeysharp/code/repos/chanchullo/board/static/foundation/css/foundation.css",
+		"/home/donkeysharp/code/repos/chanchullo/board/static/foundation/js/foundation/foundation.dropdown.js",
+		"/home/donkeysharp/code/repos/chanchullo/board/static/foundation/js/vendor/placeholder.js",
+		"/home/donkeysharp/code/repos/chanchullo/db.sqlite3",
+		"/home/donkeysharp/code/repos/chanchullo/board/migrations/0001_initial.py",
+		"/home/donkeysharp/code/repos/chanchullo/chanchullo/__init__.py",
+		"/home/donkeysharp/code/repos/chanchullo/board/__init__.py",
+		"/home/donkeysharp/code/repos/chanchullo/board/admin.py",
+		"/home/donkeysharp/code/repos/chanchullo/chanchullo/settings.py",
+		"/home/donkeysharp/code/repos/chanchullo/board/models.py",
+		"/home/donkeysharp/code/repos/chanchullo/manage.py",
+		"/home/donkeysharp/code/repos/chanchullo/.gitignore",
+		"/home/donkeysharp/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/donkeysharp/code/repos/chanchullo/chanchullo.sublime-project",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/panel.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/DeviceEdit.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Device/DeviceRepoImpl.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/controllers/DeviceController.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/DeviceDetails.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/DeviceInformation.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/Device.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/Gruntfile.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/package.json",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/composer.json",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Command/CommandRepo.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/vendors/js/backbone.min.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/vendors/js/sockjs-0.3.4.min.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/controllers/BaseController.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Service/Bridge/HttpPublishBridge.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/devices/create.html",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/vendors/js/upload.min.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/models/User.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Device/DeviceRepo.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Service/Validation/DeviceValidator.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/devices/templates/deviceEdit.html",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/controllers/DeviceEditCtrl.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/master.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/device/edit.html",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/devices/edit.html",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/main.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/frontpage/main.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/index.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/widgets/navbar.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/edit.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/home/real.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/services/Device.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/RepoServiceProvider.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/templates/services/Template.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/bootstrap/start.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/helpers/Exceptions.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/directives/deviceEdit.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/App.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/device-edit/services.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/device-edit/controller.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/device-edit/app.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/css/_mixins.scss",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/css/device.scss",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/css/navbars.scss",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/js/frontpage.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/filters.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/DataStream.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/LineChart.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/view.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/database/seeds/DeviceSeeder.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/js/devicePanel.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/mail.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devicePanel/DataStreamList.jsx",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/vendors/fonts/fontawesome-webfont.svg",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/devices/list.html",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/routes.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Repository.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/controllers/DeviceListCtrl.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Argument/ArgumentRepo.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/edit2.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/create.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/home/design.blade.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/app.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/services.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/controllers/DeviceCreateCtrl.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/real-time/real-time.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/controllers/RealTimeController.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/templates/directives/templateEdit.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/assets/foobar.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/device-edit/directives.js",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Service/Bridge/BridgeServiceProvider.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Service/Bridge/Bridge.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Command/CommandRepoImpl.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/models/Argument.php",
+		"/home/donkeysharp/tmp/positions",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/database/seeds/TemplateSeeder.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Template/TemplateRepo.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/controllers/TemplateController.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Template/TemplateRepoImpl.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/models/Command.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/beehive-web.sublime-project",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Service/Validation/TemplateValidator.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/readme.md",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/profile/edit.blade.php",
+		"/home/donkeysharp/code/py/gustav/gps_recivir.py",
+		"/home/donkeysharp/code/py/gustav/connection.py",
+		"/home/donkeysharp/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/donkeysharp/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/GenericRepository.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Auth/AuthRepoImpl.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Service/Validation/ValidationServiceProvider.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/database/migrations/2014_08_09_195312_init_tables.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/helpers/ViewHelper.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/session.php",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/device/command.html",
+		"/home/donkeysharp/code/repos/beehive/beehive-web/public/partials/foo.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"api",
+			"is_public",
+			"update",
+			"displaydeta",
+			"update",
+			"updatedevice",
+			"updatedevice(",
+			"time",
+			"devices",
+			"commands",
+			"error",
+			"foobar",
+			"tes",
+			"users",
+			"jos_",
+			"jos",
+			"sass",
+			"product_id",
+			"uuid",
+			"picture_url",
+			"picture",
+			"device_secret",
+			"secret",
+			"create",
+			"secret",
+			"validateArguments",
+			"arg",
+			"max:",
+			"fillable",
+			"extra",
+			"created",
+			"create",
+			"commandrepo",
+			"getAllByTemplate",
+			"getByTemplateAndUser",
+			"getAllByTemplate",
+			"software",
+			"command",
+			"commandrepo",
+			"Template.update",
+			".update(",
+			"getbyuser",
+			"215",
+			"200",
+			"250",
+			"label",
+			".navbar-nav",
+			"navbar-static-top",
+			"navbar",
+			"row-offcanvas",
+			"row-off",
+			"wrapper",
+			"real",
+			"dashboard",
+			".checkbox",
+			"2",
+			"BeehiveException",
+			"deviceva",
+			"@items",
+			"devices/json",
+			"totalItem",
+			"ideo",
+			"histor",
+			"twisted_args",
+			"start-stop-daemon",
+			"$NAME",
+			"basename",
+			"twistd",
+			"gotup",
+			"push",
+			"foobar",
+			"console.",
+			"close",
+			"str(",
+			"str",
+			"rig",
+			"alert",
+			"error",
+			"triggerEvents",
+			"close",
+			"guest",
+			"rabbit_auth_backend_http",
+			"auth",
+			"DeviceEditCtrl",
+			"model",
+			"device/edit.html",
+			"template",
+			"argumen",
+			"deleteCommand",
+			"delete",
+			"remove",
+			"clone",
+			"data",
+			"upload",
+			"error",
+			"model",
+			"public",
+			"publoc",
+			"list",
+			"'id' => \\d+, ",
+			"\\'id\\'",
+			"IO",
+			"saint",
+			"\"AF\"",
+			"\"AG\"",
+			"folder",
+			"command",
+			"setuphttp",
+			"get",
+			"post",
+			"up",
+			"alert",
+			"blade",
+			"method",
+			"if",
+			"device-edit",
+			"organization",
+			"picture",
+			"organization",
+			"organizatio",
+			"organization",
+			"complete",
+			"email",
+			"form-control",
+			".panel-default",
+			"panel",
+			"panel ",
+			"indent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"220",
+			"215",
+			"200",
+			"",
+			".btn-light"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/master.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"is_xml": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 20.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/hello.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/widgets/navbar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"project": "riothackaton.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"nav",
+				"app/views/widgets/navbar.blade.php"
+			],
+			[
+				"main.css",
+				"public/css/main.css"
+			],
+			[
+				"hl",
+				"app/views/hello.blade.php"
+			],
+			[
+				"hell",
+				"app/views/hello.php"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"homecontr",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"urls",
+				"chanchullo/urls.py"
+			],
+			[
+				"detai",
+				"board/templates/posts/detail.html"
+			],
+			[
+				"index",
+				"board/templates/posts/index.html"
+			],
+			[
+				"view",
+				"board/views.py"
+			],
+			[
+				"views",
+				"board/views.py"
+			],
+			[
+				"chanurl",
+				"chanchullo/urls.py"
+			],
+			[
+				"boardviews",
+				"board/views.py"
+			],
+			[
+				"models",
+				"board/models.py"
+			],
+			[
+				"setting",
+				"chanchullo/settings.py"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"sett",
+				"chanchullo/settings.py"
+			],
+			[
+				"manag",
+				"manage.py"
+			],
+			[
+				"gruntfi",
+				"Gruntfile.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"devicerepo",
+				"app/Beehive/Repo/Device/DeviceRepoImpl.php"
+			],
+			[
+				"devicecontro",
+				"app/controllers/DeviceController.php"
+			],
+			[
+				"deviceedit.jsx",
+				"frontend/js/devicePanel/DeviceEdit.jsx"
+			],
+			[
+				"maste",
+				"app/views/master.blade.php"
+			],
+			[
+				"devicdeta",
+				"frontend/js/devicePanel/DeviceDetails.jsx"
+			],
+			[
+				"partialsdevice",
+				"public/partials/devices/templates/deviceEdit.html"
+			],
+			[
+				"devicecontroller",
+				"app/controllers/DeviceController.php"
+			],
+			[
+				"main.jsx",
+				"frontend/js/devicePanel/main.jsx"
+			],
+			[
+				"panelblade",
+				"app/views/device/panel.blade.php"
+			],
+			[
+				"deviceinformation",
+				"frontend/js/devicePanel/DeviceInformation.jsx"
+			],
+			[
+				"panel",
+				"app/views/device/panel.blade.php"
+			],
+			[
+				"panel.blad",
+				"app/views/device/panel.blade.php"
+			],
+			[
+				"panel.bla",
+				"app/views/device/panel.blade.php"
+			],
+			[
+				"viewspanel",
+				"app/views/device/panel.blade.php"
+			],
+			[
+				"servicedevice",
+				"frontend/js/devices/services/Device.js"
+			],
+			[
+				"frontend/js/devices/direc",
+				"frontend/js/devices/directives/deviceEdit.js"
+			],
+			[
+				"devicedit.jsx",
+				"frontend/js/devicePanel/DeviceEdit.jsx"
+			],
+			[
+				"partialsedit",
+				"public/partials/device/edit.html"
+			],
+			[
+				"devicedeta",
+				"frontend/js/devicePanel/DeviceDetails.jsx"
+			],
+			[
+				"viewpanel",
+				"app/views/device/panel.blade.php"
+			],
+			[
+				"main.js",
+				"frontend/js/frontpage/main.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"gurntfile",
+				"Gruntfile.js"
+			],
+			[
+				"deviceindex",
+				"app/views/device/index.blade.php"
+			],
+			[
+				"routes",
+				"app/routes.php"
+			],
+			[
+				"deviceslist",
+				"public/partials/devices/list.html"
+			],
+			[
+				"gruntfil",
+				"Gruntfile.js"
+			],
+			[
+				"viewsdevice",
+				"app/views/device/edit.blade.php"
+			],
+			[
+				"master",
+				"app/views/master.blade.php"
+			],
+			[
+				"realtime.js",
+				"frontend/js/real-time/real-time.js"
+			],
+			[
+				"realblade",
+				"app/views/home/real.blade.php"
+			],
+			[
+				"filter",
+				"app/filters.php"
+			],
+			[
+				"directive",
+				"frontend/js/templates/directives/templateEdit.js"
+			],
+			[
+				"devicetrl",
+				"frontend/js/devices/controllers/DeviceCreateCtrl.js"
+			],
+			[
+				"directives",
+				"frontend/js/devices/directives/deviceEdit.js"
+			],
+			[
+				"bridge",
+				"app/Beehive/Service/Bridge/HttpPublishBridge.php"
+			],
+			[
+				"commandrepo",
+				"app/Beehive/Repo/Command/CommandRepoImpl.php"
+			],
+			[
+				"repo",
+				"app/Beehive/Repo/Repository.php"
+			],
+			[
+				"commandrepoi",
+				"app/Beehive/Repo/Command/CommandRepoImpl.php"
+			],
+			[
+				"templatesee",
+				"app/database/seeds/TemplateSeeder.php"
+			],
+			[
+				"templateseeder",
+				"app/database/seeds/TemplateSeeder.php"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"app",
+				"app/config/app.php"
+			],
+			[
+				"reposervice",
+				"app/Beehive/Repo/RepoServiceProvider.php"
+			],
+			[
+				"commadrepo",
+				"app/Beehive/Repo/Command/CommandRepoImpl.php"
+			],
+			[
+				"templatevalid",
+				"app/Beehive/Service/Validation/TemplateValidator.php"
+			],
+			[
+				"templatecontrol",
+				"app/controllers/TemplateController.php"
+			],
+			[
+				"templaterpeoim",
+				"app/Beehive/Repo/Template/TemplateRepoImpl.php"
+			],
+			[
+				"gurnt",
+				"Gruntfile.js"
+			],
+			[
+				"readm",
+				"readme.md"
+			],
+			[
+				"real",
+				"app/views/home/real.blade.php"
+			],
+			[
+				"realt",
+				"public/partials/devices/create.html"
+			],
+			[
+				"foobar",
+				"public/assets/foobar.js"
+			],
+			[
+				"viewreal",
+				"app/views/home/real.blade.php"
+			],
+			[
+				"directivesdevi",
+				"frontend/js/devices/directives/deviceEdit.js"
+			],
+			[
+				"deviceeditctr",
+				"frontend/js/devices/controllers/DeviceCreateCtrl.js"
+			],
+			[
+				"deviceapp.js",
+				"frontend/js/device-edit/app.js"
+			],
+			[
+				"partials/device",
+				"public/partials/devices/templates/deviceEdit.html"
+			],
+			[
+				"createctrl",
+				"frontend/js/devices/controllers/DeviceCreateCtrl.js"
+			],
+			[
+				"app.pph",
+				"app/config/app.php"
+			],
+			[
+				"foobar.js",
+				"public/assets/foobar.js"
+			],
+			[
+				"profile",
+				"app/views/profile/edit.blade.php"
+			],
+			[
+				"navbar",
+				"app/views/widgets/navbar.blade.php"
+			],
+			[
+				"inittabl",
+				"app/database/migrations/2014_08_09_195312_init_tables.php"
+			],
+			[
+				"devicedit",
+				"frontend/js/devices/controllers/DeviceEditCtrl.js"
+			],
+			[
+				"templateservice",
+				"frontend/js/templates/services/Template.js"
+			],
+			[
+				"init",
+				"app/database/migrations/2014_08_09_195312_init_tables.php"
+			],
+			[
+				"deviceedit",
+				"public/partials/devices/templates/deviceEdit.html"
+			],
+			[
+				"devicesed",
+				"app/database/seeds/DeviceSeeder.php"
+			],
+			[
+				"devicelist",
+				"public/partials/devices/list.html"
+			],
+			[
+				"deviceseeder",
+				"app/database/seeds/DeviceSeeder.php"
+			],
+			[
+				"devicerepoim",
+				"app/Beehive/Repo/Device/DeviceRepoImpl.php"
+			],
+			[
+				"argumentrepo",
+				"app/Beehive/Repo/Argument/ArgumentRepo.php"
+			],
+			[
+				"commandimpl",
+				"app/Beehive/Repo/Command/CommandRepoImpl.php"
+			],
+			[
+				"commanded",
+				"frontend/js/templates/controllers/CommandEditCtrl.js"
+			],
+			[
+				"commandedi",
+				"frontend/js/templates/controllers/CommandEditCtrl.js"
+			],
+			[
+				"templateedit",
+				"frontend/js/templates/directives/templateEdit.js"
+			],
+			[
+				"jsservicetemplate",
+				"frontend/js/templates/services/Template.js"
+			],
+			[
+				"argumentrepoim",
+				"app/Beehive/Repo/Argument/ArgumentRepoImpl.php"
+			],
+			[
+				"routes.php",
+				"app/routes.php"
+			],
+			[
+				"excep",
+				"app/helpers/Exceptions.php"
+			],
+			[
+				"authrepo",
+				"app/Beehive/Repo/Auth/AuthRepo.php"
+			],
+			[
+				"authrepoim",
+				"app/Beehive/Repo/Auth/AuthRepoImpl.php"
+			],
+			[
+				"exc",
+				"app/helpers/Exceptions.php"
+			],
+			[
+				"ex",
+				"app/helpers/Exceptions.php"
+			],
+			[
+				"configsess",
+				"app/config/session.php"
+			],
+			[
+				"app.",
+				"app/config/app.php"
+			],
+			[
+				"reposer",
+				"app/Beehive/Repo/RepoServiceProvider.php"
+			],
+			[
+				"servicprov",
+				"app/Beehive/Repo/RepoServiceProvider.php"
+			],
+			[
+				"resttoke",
+				"app/models/RestToken.php"
+			],
+			[
+				"resttable",
+				"app/database/migrations/2015_01_24_031512_RestTables.php"
+			],
+			[
+				"reposervi",
+				"app/Beehive/Repo/RepoServiceProvider.php"
+			],
+			[
+				"filters",
+				"app/filters.php"
+			],
+			[
+				"commandrepoim",
+				"app/Beehive/Repo/Command/CommandRepoImpl.php"
+			],
+			[
+				"argumentval",
+				"app/Beehive/Service/Validation/ArgumentValidator.php"
+			],
+			[
+				"commancontr",
+				"app/controllers/CommandController.php"
+			],
+			[
+				"argumenva",
+				"app/Beehive/Service/Validation/ArgumentValidator.php"
+			],
+			[
+				"reposi",
+				"app/Beehive/Repo/Repository.php"
+			],
+			[
+				"argreo",
+				"app/Beehive/Repo/Argument/ArgumentRepoImpl.php"
+			],
+			[
+				"servicetemplate",
+				"frontend/js/templates/services/Template.js"
+			],
+			[
+				"modelarg",
+				"app/models/Argument.php"
+			],
+			[
+				"generic",
+				"app/Beehive/Repo/GenericRepository.php"
+			],
+			[
+				"modelcom",
+				"app/models/Command.php"
+			],
+			[
+				"modedeive",
+				"app/models/Device.php"
+			],
+			[
+				"device",
+				"app/Beehive/Service/Validation/DeviceValidator.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"merx",
+				"~/code/repos/merx-web/merx-web.sublime-project"
+			],
+			[
+				"",
+				"~/code/repos/merx-web/merx-web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"",
+				"registered"
+			]
+		],
+		"width": 444.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,55 @@
+.wrapper {
+    margin: 16px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(238, 238, 238, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 15px;
+    background-color: rgba(11, 72, 87, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(211, 230, 205, 1);
+    background-color: rgba(204, 55, 55, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(211, 230, 205, 1);
+    background-color: rgba(6, 54, 99, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(211, 230, 205, 1);
+    background-color: rgba(18, 41, 71, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #122947;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #122947;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #122947;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #0b4857;
+}
+
+.panel-primary > .panel-heading {
+  /*background-image: -webkit-linear-gradient(top, #428bca 0%, #357ebd 100%);
+  background-image:      -o-linear-gradient(top, #428bca 0%, #357ebd 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#428bca), to(#357ebd));
+  background-image:         linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);*/
+  background-color: rgba(11, 72, 87, 1);
+  background-repeat: repeat-x;
+}
+
+.panel-primary {
+    border: 1px #0B4857 solid;
+}
