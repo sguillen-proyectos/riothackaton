@@ -14,3 +14,11 @@
 Route::get('/', ['uses' => 'ThingController@index']);
 Route::get('things/types', ['uses' => 'ThingController@getThingTypes']);
 Route::get('things/{id}', ['uses' => 'ThingController@show']);
+Route::get('things/{thing_id}/history/{field_id}', ['uses' => 'ThingController@history']);
+
+
+
+Form::macro('unixt', function($millis){
+    $res = gmdate("Y-m-d\TH:i:s\Z", $millis);
+    return $res;
+});

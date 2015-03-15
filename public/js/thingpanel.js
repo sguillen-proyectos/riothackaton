@@ -1,6 +1,7 @@
 (function($) {
   var photoCellChart, ultrasonicChart;
   var photoCellData = [], ultrasonicData = [];
+  var doorImg, lightImg;
   function startStreaming() {
     bridge = new BeehiveBridge({
       wsUrl: 'http://' + document.domain +':9999/echo',
@@ -9,6 +10,25 @@
 
     bridge.on('connect', function() {
       console.log('TEST CONNECTED');
+
+      bridge.subscribe('sensor/door_opened', function(res) {
+        console.log('door_o');
+        doorImg.src = '/img/opened.png';
+        $.notify('Door Opened', 'danger');
+      });
+      bridge.subscribe('sensor/door_closed', function(res) {
+        console.log('door_c');
+        doorImg.src = '/img/closed.png';
+        $.notify('Door Closed', 'success');
+      });
+      bridge.subscribe('sensor/light_on', function(res) {
+        console.log('lon');
+        lightImg.src = '/img/light_on.png';
+      });
+      bridge.subscribe('sensor/light_off', function(res) {
+        console.log('loff');
+        lightImg.src = '/img/light_off.png';
+      });
 
       bridge.subscribe('sensor/camera', function(res) {
         try {
@@ -51,6 +71,8 @@
 
   $(document).ready(function() {
     startStreaming();
+    doorImg = document.getElementById('door');
+    lightImg = document.getElementById('light');
     $('#photo-cell').height('300px');
     $('#ultrasonic').height('300px');
     photoCellChart = $.plot("#photo-cell", [ [] ], {

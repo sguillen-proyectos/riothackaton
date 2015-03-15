@@ -33,7 +33,11 @@
               <b>Field Name: </b>
             </td>
             <td>
-              {{$field->name}} - {{$field->id}}
+              {{$field->name}} -
+              <a title="Data History"
+                href="/things/{{$thing->id}}/history/{{$field->id}}">
+                <i class="fa fa-database"></i>
+              </a>
             </td>
             <td class="col-md-3">
               <b>Measurment Unit: </b>
@@ -62,6 +66,7 @@
           </div>
           <div class="col-sm-4">
             <h3>Light Bulb</h3>
+            <img src="/img/light_off.png" id="light" style="width: 200px; height: 300px">
           </div>
         </div>
         <div class="row">
@@ -71,6 +76,7 @@
           </div>
           <div class="col-sm-4">
             <h3>Door Status</h3>
+            <img src="/img/closed.png" id="door" style="width: 200px; height: 300px">
           </div>
         </div>
         <div class="row">
@@ -94,5 +100,6 @@
 <script src="{{asset('js/jquery.flot.navigate.min.js')}}"></script>
 <script src="{{asset('js/sockjs-0.3.4.min.js')}}"></script>
 <script src="{{asset('js/foobar.js')}}"></script>
+<script src="{{asset('js/notify.min.js')}}"></script>
 <script src="{{asset('js/thingpanel.js')}}"></script>
 @stop

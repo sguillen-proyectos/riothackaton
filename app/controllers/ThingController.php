@@ -34,6 +34,33 @@ class ThingController extends BaseController {
             ->with('thing', $thing);
     }
 
+    public function history($thing_id, $field_id)
+    {
+        $history = $this->getRiotHistory($this->apiKey, $thing_id, $field_id);
+
+        return View::make('home.history')
+            ->with('history', $history);
+    }
+
+    private function getRiotHistory($api_key, $thing_id, $field_id)
+    {
+        $uri = 'http://one.hackiot.com:8080/riot-core-services/api/thing/';
+        $uri .= $thing_id . '/field' . '/' . $field_id;
+        $result = [];
+
+        try {
+            $response = Httpful\Request::get($uri)
+                ->addHeader('Api_key', $api_key)
+                ->send();
+
+            $result = $response->body;
+        }
+        catch(Exception $e) {
+        }
+
+        return $result;
+    }
+
     private function getRiotThing($api_key, $id)
     {
         $uri = "http://one.hackiot.com:8080/riot-core-services/api/thing/$id";

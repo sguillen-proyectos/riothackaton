@@ -21,7 +21,10 @@
               <td>{{$thing->name}}</td>
               <td>{{$thing->serial}}</td>
               <td>{{$thing->thingType->name}}</td>
-              <td><a href="/things/{{$thing->id}}"><i class="fa fa-eye"></i></a></td>
+              {{-- <td><a href="/things/{{$thing->id}}/history">
+                <i title="Historic Data" class="fa fa-database"></i>
+              </a></td> --}}
+              <td><a title="Data Visualization" href="/things/{{$thing->id}}"><i class="fa fa-bar-chart"></i></a></td>
             </tr>
           @endforeach
           </tbody>
