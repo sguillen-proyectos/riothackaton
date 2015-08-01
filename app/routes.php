@@ -15,7 +15,7 @@ Route::get('/', ['uses' => 'ThingController@index']);
 Route::get('things/types', ['uses' => 'ThingController@getThingTypes']);
 Route::get('things/{id}', ['uses' => 'ThingController@show']);
 Route::get('things/{thing_id}/history/{field_id}', ['uses' => 'ThingController@history']);
-
+Route::get('notifications/send', ['uses' => 'NotificationController@sendSMS']);
 
 
 Form::macro('unixt', function($millis){

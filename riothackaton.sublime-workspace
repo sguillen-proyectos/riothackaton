@@ -68,26 +68,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/home/securitypanel.blade.php",
-			"settings":
-			{
-				"buffer_size": 2948,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home/history.blade.php",
-			"settings":
-			{
-				"buffer_size": 822,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "public/js/thingpanel.js",
 			"settings":
 			{
-				"buffer_size": 2715,
+				"buffer_size": 3031,
 				"line_ending": "Unix"
 			}
 		}
@@ -95,9 +79,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 120.0,
+		"height": 98.0,
 		"selected_items":
 		[
+			[
+				" new file",
+				"ANF: New File"
+			],
 			[
 				"new file",
 				"ANF: New File"
@@ -499,7 +487,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 561.0
+		"width": 462.0
 	},
 	"console":
 	{
@@ -521,22 +509,29 @@
 	"expanded_folders":
 	[
 		"/home/donkeysharp/code/repos/riothackaton",
-		"/home/donkeysharp/code/repos/riothackaton/public"
+		"/home/donkeysharp/code/repos/riothackaton/public",
+		"/home/donkeysharp/code/repos/riothackaton/public/js"
 	],
 	"file_history":
 	[
-		"/home/donkeysharp/code/repos/riothackaton/app/controllers/ThingController.php",
 		"/home/donkeysharp/code/repos/riothackaton/app/routes.php",
-		"/home/donkeysharp/code/repos/riothackaton/app/config/app.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/controllers/NotificationController.php",
 		"/home/donkeysharp/code/repos/riothackaton/public/js/thingpanel.js",
-		"/home/donkeysharp/code/repos/riothackaton/app/views/home/index.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/config/session.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/controllers/ThingController.php",
 		"/home/donkeysharp/code/repos/riothackaton/mqtt_connection/beehiveRealTime.js",
-		"/home/donkeysharp/code/repos/riothackaton/riothackaton.sublime-project",
 		"/home/donkeysharp/code/repos/riothackaton/app/views/widgets/navbar.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/controllers/BaseController.php",
+		"/home/donkeysharp/code/repos/riothackaton/CONTRIBUTING.md",
+		"/home/donkeysharp/code/repos/riothackaton/composer.json",
+		"/home/donkeysharp/code/repos/riothackaton/app/views/home/securitypanel.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/views/home/history.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/config/app.php",
+		"/home/donkeysharp/code/repos/riothackaton/app/views/home/index.blade.php",
+		"/home/donkeysharp/code/repos/riothackaton/riothackaton.sublime-project",
 		"/home/donkeysharp/code/repos/riothackaton/app/views/master.blade.php",
 		"/home/donkeysharp/code/repos/riothackaton/public/css/main.css",
 		"/home/donkeysharp/riot.py",
-		"/home/donkeysharp/code/repos/riothackaton/app/views/home/securitypanel.blade.php",
 		"/home/donkeysharp/code/repos/riothackaton/.gitignore",
 		"/home/donkeysharp/code/repos/riothackaton/.gitattributes",
 		"/home/donkeysharp/code/repos/riothackaton/public/js/sockjs-0.3.4.min.js",
@@ -560,7 +555,6 @@
 		"/home/donkeysharp/code/repos/riothackaton/public/css/hover-min.css",
 		"/home/donkeysharp/code/repos/riothackaton/app/views/hello.blade.php",
 		"/home/donkeysharp/code/repos/riothackaton/app/views/home/thingtypes.blade.php",
-		"/home/donkeysharp/code/repos/riothackaton/composer.json",
 		"/home/donkeysharp/code/repos/riothackaton/app/controllers/HomeController.php",
 		"/home/donkeysharp/code/repos/riothackaton/public/fonts/fontawesome-webfont.svg",
 		"/home/donkeysharp/code/repos/riothackaton/ENVIRONMENT",
@@ -647,12 +641,7 @@
 		"/home/donkeysharp/code/repos/beehive/beehive-web/app/routes.php",
 		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Repository.php",
 		"/home/donkeysharp/code/repos/beehive/beehive-web/frontend/js/devices/controllers/DeviceListCtrl.js",
-		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Argument/ArgumentRepo.php",
-		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/edit2.blade.php",
-		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/device/create.blade.php",
-		"/home/donkeysharp/code/repos/beehive/beehive-web/app/views/home/design.blade.php",
-		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/app.php",
-		"/home/donkeysharp/code/repos/beehive/beehive-web/app/config/services.php"
+		"/home/donkeysharp/code/repos/beehive/beehive-web/app/Beehive/Repo/Argument/ArgumentRepo.php"
 	],
 	"find":
 	{
@@ -821,85 +810,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/home/securitypanel.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2198,
-								2198
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1060.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/home/history.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								635,
-								635
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"is_xml": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "public/js/thingpanel.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2715,
+						"buffer_size": 3031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								889,
-								889
+								2131,
+								2131
 							]
 						],
 						"settings":
@@ -909,7 +837,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 100.0,
+						"translation.y": 780.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -977,6 +905,18 @@
 				"public/js/thingpanel.js"
 			],
 			[
+				"routes",
+				"app/routes.php"
+			],
+			[
+				"controll",
+				"app/controllers/ThingController.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
 				"app",
 				"app/config/app.php"
 			],
@@ -991,10 +931,6 @@
 			[
 				"thingcontrol",
 				"app/controllers/ThingController.php"
-			],
-			[
-				"routes",
-				"app/routes.php"
 			],
 			[
 				"index",
@@ -1063,10 +999,6 @@
 			[
 				"main.css",
 				"public/css/main.css"
-			],
-			[
-				"composer",
-				"composer.json"
 			],
 			[
 				"homecontro",
@@ -1479,10 +1411,6 @@
 			[
 				"resttoke",
 				"app/models/RestToken.php"
-			],
-			[
-				"resttable",
-				"app/database/migrations/2015_01_24_031512_RestTables.php"
 			]
 		],
 		"width": 0.0
@@ -1493,11 +1421,11 @@
 		"selected_items":
 		[
 			[
-				"merx",
-				"~/code/repos/merx-web/merx-web.sublime-project"
+				"",
+				"~/code/repos/beehive/beehive-web/beehive-web.sublime-project"
 			],
 			[
-				"",
+				"merx",
 				"~/code/repos/merx-web/merx-web.sublime-project"
 			]
 		],

@@ -2,6 +2,7 @@
   var photoCellChart, ultrasonicChart;
   var photoCellData = [], ultrasonicData = [];
   var doorImg, lightImg;
+  var smsSent = false;
   function startStreaming() {
     bridge = new BeehiveBridge({
       wsUrl: 'http://' + document.domain +':9999/echo',
@@ -13,8 +14,15 @@
 
       bridge.subscribe('sensor/door_opened', function(res) {
         console.log('door_o');
+        if (!smsSent) {
+          $.get('/notifications/send').success(function(res) {
+            smsSent = true;
+          }).fail(function() {
+            console.log('sms fail!');
+          });
+        }
         doorImg.src = '/img/opened.png';
-        $.notify('Door Opened', 'danger');
+        $.notify('Door Opened', 'error');
       });
       bridge.subscribe('sensor/door_closed', function(res) {
         console.log('door_c');
@@ -87,7 +95,7 @@
     ultrasonicChart = $.plot("#ultrasonic", [ [] ], {
       yaxis: {
         min: 0,
-        max: 300
+        max: 50
       },
       xaxis: {
         show: false
